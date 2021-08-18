@@ -1,4 +1,5 @@
 https://cytelsystem.github.io/glosariodeterminos/
+https://cytelsystem.github.io/glosariodeterminos/
 
 # Glosario de terminos en Html, Css, JavaScript y Node,
 
