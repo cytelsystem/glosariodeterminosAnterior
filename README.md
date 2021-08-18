@@ -8,6 +8,6 @@ https://cytelsystem.github.io/glosariodeterminos/
 
 ### Clase Programacion Imperativa
 
-#### Reconocimientos
+#### Aportes
 
 ##### Pepito perez
