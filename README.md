@@ -7,3 +7,7 @@ https://cytelsystem.github.io/glosariodeterminos/
 ### Clase Front-End
 
 ### Clase Programacion Imperativa
+
+#### Reconocimientos
+
+##### Pepito perez
