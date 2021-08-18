@@ -1,7 +1,9 @@
-https://cytelsystem.github.io/glosariojavascript/
+https://cytelsystem.github.io/glosariodeterminos/
 
-# Glosario de terminos en Javascript y Node
+# Glosario de terminos en Html, Css, JavaScript y Node,
 
-## lenguaje JavaScript y Node
+## lenguaje Html, Css, JavaScript y Node
+
+### Clase Front-End
 
 ### Clase Programacion Imperativa
