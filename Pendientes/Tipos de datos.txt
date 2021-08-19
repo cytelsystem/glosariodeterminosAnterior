@@ -1,0 +1,5 @@
+Tipo de datos
+
+Char(4) Permite utilizar campos fijos y en memoria se asigna 4 pero si es de 3 caracteres la palabra se pierde 1
+varchar(255) Permite hasta la cantidad de caracteres que se coloco pero es dinamico y no se perden espacios de memoria
+tinytext es de 0 a 255 = hasta 255
