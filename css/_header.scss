@@ -1,0 +1,38 @@
+.headercontenedor {
+  margin: $margengeneral;
+  width: $maxw;
+  background-color: $ColorCuarteario;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  h1 {
+    font-size: 6rem;
+  }
+  nav {
+    color: red;
+    ul {
+      color: blue;
+      display: flex;
+      gap: 10px;
+    }
+    li {
+      background-color: #6986e6;
+      border-radius: 5%;
+      padding: 1% 2% 1% 2%;
+      display: flex;
+      /* align-content: stretch; */
+      text-align: center;
+      width: 15vw;
+      justify-content: space-around;
+      align-items: center;
+      a {
+        font-size: 3.1rem;
+        color: red;
+      }
+    }
+    li:hover {
+      background-color: #5479ca;
+    }
+  }
+}

@@ -1,29 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-:root {
-  --maxw: 1024px;
-  --fon1: "Roboto", sans-serif;
-  --ColorPrimario: #000000;
-  --ColorSecundario: #333333;
-  --ColorTerceario: #00669f;
-  --ColorCuaternario: #fff9f9;
-  --ColorQuinario: #f3f3f3;
-  --ColorSextario: #ffffff;
-  --ColorSeptimoario: #1cd1b0;
-  --backgroundImg: rgb(236, 221, 221);
-  --Pshadow1: 0px 10px 7px rgb(0 0 0 / 25%);
-  --Pshadow2: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  font-size: 5px;
+}
+
 body {
   font-family: var(--fon1);
   font-weight: 300px;
+  margin: 0 auto;
 }
+
 img {
   max-width: 100%;
 }
@@ -41,4 +33,79 @@ fieldset {
   padding: 0.01em 0 0 0;
   margin: 0;
   min-width: 0;
+}
+
+.headercontenedor {
+  margin: 0 auto;
+  width: 1024px;
+  background-color: #b089f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+
+.headercontenedor h1 {
+  font-size: 6rem;
+}
+
+.headercontenedor nav {
+  color: red;
+}
+
+.headercontenedor nav ul {
+  color: blue;
+  display: flex;
+  gap: 10px;
+}
+
+.headercontenedor nav li {
+  background-color: #6986e6;
+  border-radius: 5%;
+  padding: 1% 2% 1% 2%;
+  display: flex;
+  /* align-content: stretch; */
+  text-align: center;
+  width: 15vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headercontenedor nav li a {
+  font-size: 3.1rem;
+  color: red;
+}
+
+.headercontenedor nav li:hover {
+  background-color: #5479ca;
+}
+
+.maincontenedor {
+  margin: 0 auto;
+  width: 1024px;
+  background-color: #d5cde25e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+}
+
+.maincontenedor h2 {
+  font-size: 4rem;
+}
+
+.maincontenedor-commando {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+  border: 1px solid black;
+}
+
+.maincontenedor-commando h3 {
+  font-size: 4rem;
+}
+
+.maincontenedor-commando p {
+  border-left: 1px dashed black;
+  font-size: 3.1rem;
 }
