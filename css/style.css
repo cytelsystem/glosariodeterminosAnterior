@@ -57,6 +57,7 @@ fieldset {
   color: blue;
   display: flex;
   gap: 10px;
+  justify-content: space-around;
 }
 
 .headercontenedor nav li {
@@ -66,7 +67,7 @@ fieldset {
   display: flex;
   /* align-content: stretch; */
   text-align: center;
-  width: 15vw;
+  min-width: 10vw;
   justify-content: space-around;
   align-items: center;
 }
@@ -78,6 +79,15 @@ fieldset {
 
 .headercontenedor nav li:hover {
   background-color: #5479ca;
+}
+
+@media screen and (max-width: 768px) {
+  .headercontenedor nav ul {
+    flex-wrap: wrap;
+  }
+  .headercontenedor nav li {
+    background-color: #6986e6;
+  }
 }
 
 .maincontenedor {
