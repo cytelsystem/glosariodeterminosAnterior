@@ -1,0 +1,4 @@
+let miSerie = "Mad Men" ;
+console.log(miSerie.length);
+console.log(miSerie.indexOf('Men'));
+console.log(miSerie.slice(4,7));
