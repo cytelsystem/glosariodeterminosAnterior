@@ -1,0 +1,7 @@
+let nombres = ["Nacho", "Dario", "Javier"];
+let edades = [34, 28, 37, 40, 43];
+let valoresDeVerdad = [true, false, false];
+let variados = ["Nacho", 34, true, false, edades]
+
+console.log(nombres)
+console.log(variados[4][1])
