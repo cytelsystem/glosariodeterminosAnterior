@@ -1,0 +1,8 @@
+SELECT primer_nombre, apellido FROM clientes
+ORDER BY primer_nombre ASC
+;
+
+
+SELECT * FROM clientes
+ORDER BY primer_nombre DESC
+;
