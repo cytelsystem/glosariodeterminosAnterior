@@ -1,0 +1,4 @@
+let colores = ['azul', 'Rojo', 'Rosado'];
+colores.push('verde', 'Naranja');
+
+console.log(colores)
