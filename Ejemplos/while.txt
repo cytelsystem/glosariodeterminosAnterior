@@ -1,0 +1,7 @@
+let vuelta = 1
+
+while (vuelta <= 5) {
+  console.log('dando la vuelta' + vuelta)
+  vuelta++
+}
+

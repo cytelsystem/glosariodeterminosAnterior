@@ -1,0 +1,6 @@
+do {
+  console.log("dando la vuelta" + vuelta);
+  vuelta++;
+} while (vuelta <= 10)
+
+
