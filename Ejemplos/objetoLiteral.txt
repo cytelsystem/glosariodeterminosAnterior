@@ -1,0 +1,12 @@
+let nombre = {
+  Nombre: 'hector',
+  Apellido: 'Moreno',
+  Cursos: function() {
+    return 'Hola' + ' ' + this.Nombre + ' ' + this.Apellido
+
+  }
+}
+console.log(nombre.Cursos())
+
+// ***********************************
+

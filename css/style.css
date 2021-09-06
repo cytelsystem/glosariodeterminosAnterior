@@ -36,6 +36,10 @@ fieldset {
   min-width: 0;
 }
 
+.error {
+  color: red;
+}
+
 .headercontenedor {
   margin: 0 auto;
   width: 1024px;
