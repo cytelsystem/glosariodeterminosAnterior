@@ -1,0 +1,10 @@
+let datosJson = '{"club": "Independiente","barrio": "Avellaneda"}';
+let datosConvertidos = JSON.parse(datosJson);
+
+console.log(datosConvertidos);
+
+// Se verá en consola un objeto literal
+// { club: 'Independiente', barrio: 'Avellaneda' }
+
+// ***************************************************
+
