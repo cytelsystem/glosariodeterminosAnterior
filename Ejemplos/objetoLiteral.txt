@@ -8,5 +8,19 @@ let nombre = {
 }
 console.log(nombre.Cursos())
 
-// ***********************************
+// ************Modificar Objeto******************
 
+let prueba = {
+  nombre: "Javier",
+  apellido: "Moreno"
+}
+
+function cambiar(prueba){
+  let info = prueba
+  info.nombre = "carlos"
+  return info;
+}
+
+console.log(cambiar(prueba));
+
+// *****************************************

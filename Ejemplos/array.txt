@@ -30,5 +30,18 @@ function convertir(array1, array2){
 
 console.log(convertir(peliculas, pelisAnimadas));
 
-/* ***************************************************** */
+/* ******************MODIFICAR UN ARRAY************************ */
+
+let prueba = ["Javier","Moreno"]
+
+function cambiar(prueba){
+  let info = prueba
+  info[0] = "ivonne"
+  info[1] = "Perez"
+  return info;
+}
+
+console.log(cambiar(prueba));
+
+/* ************************************************************************ */
 
