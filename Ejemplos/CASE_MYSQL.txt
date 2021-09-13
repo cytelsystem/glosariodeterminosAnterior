@@ -1,0 +1,10 @@
+
+SELECT title, rating,
+    CASE
+        WHEN rating < 5 THEN "Mala"
+        WHEN rating < 7 THEN "Buena"
+        ELSE "Muy buena"
+    END
+FROM movies;
+
+// ***********************************************
