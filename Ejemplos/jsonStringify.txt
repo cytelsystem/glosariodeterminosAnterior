@@ -7,3 +7,10 @@ console.log(datosConvertidos);
 // '{ "nombre": "América de Cali", "pais": "Colombia" }
 
 //*******************************************************************
+
+const convertirAJson = {
+    escribirArchivo: function (nombreArchivo, datos)
+    {fs.writeFileSync(`${__dirname}/${nombreArchivo}.json`,JSON.stringify(datos));},
+};
+
+// *************************************************************

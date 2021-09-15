@@ -1,3 +1,8 @@
+Nota: 	Los datos a convertir deben de estar en una linea orizontal  '{"club": "Independiente","barrio": "Avellaneda"}'
+	No olvidar las comillas simples a fuera de las llaves.
+
+// ********************************************************************************
+
 let datosJson = '{"club": "Independiente","barrio": "Avellaneda"}';
 let datosConvertidos = JSON.parse(datosJson);
 
@@ -8,3 +13,10 @@ console.log(datosConvertidos);
 
 // ***************************************************
 
+const convertirAJavascript = {
+   leerArchivo: function (nombreArchivo) {
+    return JSON.parse(fs.readFileSync(`${__dirname}/${nombreArchivo}.json`, "utf-8"));
+   },
+};
+
+// *********************************************************
