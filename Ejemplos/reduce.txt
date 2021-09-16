@@ -1,0 +1,12 @@
+
+let notas = [10, 4, 5, 8, 9, 2, 7];
+let sumaNotas = notas.reduce(
+
+  function(almacena, numero){
+  return almacena + numero ;
+  }
+);
+
+ console.log(sumaNotas);
+
+// ***********************************************
