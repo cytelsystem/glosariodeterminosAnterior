@@ -8,3 +8,11 @@ SELECT title, rating,
 FROM movies;
 
 // ***********************************************
+
+CASE
+WHEN compositor = "" or compositor is null THEN "Sin Datos"
+WHEN compositor NOT LIKE "%,%" THEN compositor
+ELSE LEFT(compositor, LOCATE(",",compositor)-1)
+END AS compositorFinal
+
+// ***********************************************

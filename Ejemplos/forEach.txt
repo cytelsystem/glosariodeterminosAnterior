@@ -13,3 +13,11 @@ console.log(valorIndice);
 
 // *******************************************************
 
+
+let lista = listaDeSuperMercado.forEach(
+  function(valor, indice) {
+    console.log(valor);
+  }
+)
+
+// *********************************************************

@@ -1,1 +1,7 @@
-Falta Ejemplos
+
+SELECT DISTINCT VP.*
+FROM facturadetalle FD
+LEFT JOIN VIEWPRODUCTOSCAT VP  ON FD.productoID = VP.productoID
+
+******************************************************
+
