@@ -16,3 +16,13 @@ FROM movies;
 // ***********************************************************
 
 
+SELECT idusuario AS ID,
+nombre As Nombre,
+email AS "E-mail",
+extract(year from fechanacimiento) as "anio nacimiento",
+TIMESTAMPDIFF(YEAR,fechanacimiento,CURDATE()) AS Edad,
+TIMESTAMPDIFF(month,fechanacimiento,CURDATE()) AS Meses,
+TIMESTAMPDIFF(day,fechanacimiento,CURDATE()) AS dias
+FROM usuario;
+
+-- // ******************************************************************************
