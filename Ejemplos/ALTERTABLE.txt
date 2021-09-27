@@ -12,10 +12,24 @@ RENAME TO  `dhtube`.`usuario1` ;
 ALTER TABLE usuario
 ADD COLUMN `CEDULA` VARCHAR(45) NOT NULL DEFAULT 'CC7908';
 
+-- // **********************************************************
+ALTER TABLE alumnos.alumnos
+ADD COLUMN `IdMateria` INT NULL AFTER `IdAlumno`;
+
 -- //***********************Borrar un Campo************************************************
 
 ALTER TABLE `usuario` 
 DROP COLUMN `CEDULA`;
 
--- //****************************************************************************
+-- //************************Adicionar Llave Foranea*********************************
+
+ALTER TABLE `alumnos`.`alumnos`
+ADD CONSTRAINT `Alumnos-materias`
+  FOREIGN KEY (`IdMateria`)
+  REFERENCES `alumnos`.`materias` (`IdMateria`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+-- // ****************************************************************
+
 

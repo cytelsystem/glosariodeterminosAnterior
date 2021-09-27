@@ -1,1 +1,9 @@
-Falta Ejemplos
+
+select
+COUNT(g.idGenero) Canciones
+from cancion C
+JOIN genero G
+WHERE G.Genero in('pop', 'rock') AND titulo LIKE "%m%"
+GROUP BY g.idGenero
+
+-- // ***************************************************************

@@ -7,3 +7,7 @@ DATE_ADD = Adicionar la cantidad de tiempo a una fecha
 WHERE R.fecha >= DATE_SUB(curdate(), INTERVAL '1' MONTH)
 
 --// *************************************************************************************
+
+SELECT * FROM Alumnos WHERE YEAR(Fecha_Nacimiento) = 2000
+
+-- // ************************************************************************************
