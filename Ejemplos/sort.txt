@@ -55,5 +55,17 @@ const carrera = {
 };
 console.table(carrera.ordenarPorVelocidad());
 
-// *********************************************************
+// ******************************Ordenar Podio***************************
+
+  listarPodio: function (arrayAutos) {
+    let podio = arrayAutos.sort((a, b)=> b.puntaje - a.puntaje)
+    let primerPuesto = podio[0]
+    let segundoPuesto = podio[1]
+    let tercerPuesto = podio[2]
+    console.table(`Primer Puesto: ${primerPuesto.piloto} con un puntaje de: ${primerPuesto.puntaje}`);
+    console.table(`Segundo Puesto: ${segundoPuesto.piloto} con un puntaje de: ${segundoPuesto.puntaje}`);
+    console.table(`Tercer Puesto: ${tercerPuesto.piloto} con un puntaje de: ${tercerPuesto.puntaje}`);
+  },
+
+// *********************************************************************
 
