@@ -45,3 +45,15 @@ console.log(numeros)
 
 // ******************************************************
 
+let jsonHelper = require("./lecturaEscritura");
+
+const carrera = {
+  autos: jsonHelper.leerJson("autos"),
+  ordenarPorVelocidad: function () {
+  return this.autos.sort((a, b) => a.cilindrada - b.cilindrada)
+  },
+};
+console.table(carrera.ordenarPorVelocidad());
+
+// *********************************************************
+

@@ -13,6 +13,7 @@ console.log(valorIndice);
 
 // *******************************************************
 
+let listaDeSuperMercado = ["panela", "cafe", "atun"]
 
 let lista = listaDeSuperMercado.forEach(
   function(valor, indice) {
@@ -21,3 +22,21 @@ let lista = listaDeSuperMercado.forEach(
 )
 
 // *********************************************************
+
+let jsonHelper = require('./lecturaEscritura')
+
+const carrera = {
+  autos: jsonHelper.leerJson("autos"),
+  listarAutos: function(arrayAutos){
+    arrayAutos.forEach((auto)=>{
+      let estado = auto.sancionado ? "sancionado" : "habilitado";
+      console.log(
+        `Piloto: ${auto.piloto}, patente: ${auto.patente}, velocidad: ${auto.velocidad}, peso en kg: ${auto.peso}, estado: ${estado}.`
+      );
+    })
+  }
+};
+
+console.log(carrera.listarAutos(carrera.autos))
+
+// **********************************************************

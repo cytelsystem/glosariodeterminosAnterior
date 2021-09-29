@@ -9,4 +9,14 @@ let sumaNotas = notas.reduce(
 
  console.log(sumaNotas);
 
-// ***********************************************
+// ******************n el metodo pesoPromedio de un objeto literal*************************************
+
+  pesoPromedio: function (cilindrada, peso) {
+    let tandada = this.generarTanda(cilindrada, peso);
+    let sumatandada = tandada.reduce((almacena, array) => almacena + array.peso, 0)
+    let promedioTandada = sumatandada / tandada.length
+
+    return `El peso promedio de la tandada de vehiculos es de: ${promedioTandada} kg`
+  }, 
+
+// ***********************************************************************************
