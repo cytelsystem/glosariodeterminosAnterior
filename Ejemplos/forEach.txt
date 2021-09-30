@@ -39,4 +39,19 @@ const carrera = {
 
 console.log(carrera.listarAutos(carrera.autos))
 
-// **********************************************************
+// ********************************Corregir nombre Primera letra mayuscula*****************************
+
+  corregirNombres: function() {
+    let todosprofesionales = this.profesionales
+    profesionalesCorregidos = []
+
+    todosprofesionales.forEach((profesional) =>{
+    profesional.nombre = profesional.nombre.charAt(0).toUpperCase() + profesional.nombre.slice(1);
+    profesionalesCorregidos.push(profesional);
+    }) // FIN FOREACH
+
+    return profesionalesCorregidos
+  },
+
+// ****************************************************************************************************
+

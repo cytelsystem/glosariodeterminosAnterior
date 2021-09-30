@@ -43,3 +43,20 @@ function capitalizarPrimeraLetra(str) {
 }
 
 console.log(capitalizarPrimeraLetra(str));
+
+// ********************************************************************
+
+  corregirNombres: function() {
+    let todosprofesionales = this.profesionales
+    profesionalesCorregidos = []
+
+    todosprofesionales.forEach((profesional) =>{
+    profesional.nombre = profesional.nombre.charAt(0).toUpperCase() + profesional.nombre.slice(1);
+    profesionalesCorregidos.push(profesional);
+    }) // FIN FOREACH
+
+    return profesionalesCorregidos
+  },
+
+// ************************************************************************
+

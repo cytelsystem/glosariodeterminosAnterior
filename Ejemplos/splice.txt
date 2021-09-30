@@ -13,3 +13,16 @@ console.log(numeros); // [2,5,6,7]
 
 
 // **************************************************************************************
+
+  eliminar: function (id) {
+
+    let index = this.miembros.findIndex((miembro) => miembro.id === id)
+
+    this.miembros.splice(index,1);
+
+    jsonHelper.escribirJson("personas", this.miembros);
+    return this.miembros;
+
+  }
+
+// **************************************************************************************
