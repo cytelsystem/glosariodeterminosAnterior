@@ -1,0 +1,7 @@
+
+TRUNCATE TABLE Categories;
+
+
+-- // **********************************************
+
+TRUNCATE TABLE evaluacion.empleados;
