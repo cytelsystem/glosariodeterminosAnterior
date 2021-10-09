@@ -130,6 +130,11 @@ fieldset {
   font-size: 20rem;
 }
 
+.maincontenedor-ul-li-a {
+  color: #0051ff;
+  font-size: 4rem;
+}
+
 .maincontenedor-commando {
   display: -webkit-box;
   display: -ms-flexbox;

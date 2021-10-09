@@ -11,3 +11,5 @@ ALTER table productos
 drop index indexValor;
 
 -- // **************************************************************
+
+	

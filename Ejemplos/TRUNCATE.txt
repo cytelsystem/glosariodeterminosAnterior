@@ -1,3 +1,5 @@
+Borra los registros de la tabla y inicializa ID
+
 
 TRUNCATE TABLE Categories;
 
