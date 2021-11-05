@@ -132,6 +132,10 @@ fieldset {
   font-size: 13rem;
 }
 
+.maincontenedor p {
+  font-size: 4rem;
+}
+
 .maincontenedor-ul-li-a {
   color: #0051ff;
   font-size: 4rem;
