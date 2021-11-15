@@ -4,8 +4,13 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
+
 # Other files and folders
 .settings/
+.node_modules
+node_modules
+package-lock.json
+.vscode
 
 # Executables
 *.swf
