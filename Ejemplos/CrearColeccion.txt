@@ -1,0 +1,18 @@
+
+List nombres = new ArrayList();
+
+List nombres = new ArrayList();
+
+List nombres = new LinkedList();
+
+Set nombres = new HashSet();
+
+Set nombres = new LinkedHashSet();
+
+Set nombres = new TreeSet();
+
+Map nombres = new HashMap();
+
+Map nombres = new LinkedHashMap();
+
+Map nombres = new TreeMap();
