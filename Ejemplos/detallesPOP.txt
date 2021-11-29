@@ -21,8 +21,9 @@ en UML las Herencias lleban la flecha de extends con la punta flecha sin relleno
 
 herencia  ———————▷
 interfaces-------------▷
-asociacion   Estudiante ————————————> asignatura     en un solo sentido tiene, conoce  persona ————————————> direccion  carro tiene pito
-agregacion   zoologico  ◇————————————> aninal	Tiene, conoce y es parte  selva tiene un conjunto de animales y los animales son parte de la selva  albas clases pueden seguir existiendo separadamente computadora ◇————————————>mouse
+				
+asociacion   Estudiante(Tiene) ————————————>(Conoce) asignatura  en un solo sentido tiene, conoce  persona ————————————> direccion  carro tiene pito
+agregacion   zoologico(esparte de)  ◇————————————> aninal	Tiene, conoce y es parte  selva tiene un conjunto de animales y los animales son parte de la selva  albas clases pueden seguir existiendo separadamente computadora ◇————————————>mouse
 Composicion  Persona	◆————————————> Organo	una persona esta compuesto por organos  una de las clases no tiene sentido por su cuenta  un televisor no tiene sentido sin una pantalla
 Generalizacion ————
 Especializacion
