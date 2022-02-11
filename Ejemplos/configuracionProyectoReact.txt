@@ -14,12 +14,10 @@
 mkdir ./src/components
 mkdir ./src/components/styles
 mkdir ./src/pages
-touch ./src/pages/PaginaPrincipal.js
-touch ./src/pages/styles/PaginaPrincipal.scss
+touch ./src/components/App.js
+touch ./src/components/styles/app.scss
+mkdir ./src/images
 mkdir ./src/pages/styles
 touch ./src/global.scss
 
-// *********************************llamar el archivo de estilos dentro de nuestra PaginaPrincipal.js***************//
-
-import './styles/PaginaPrincipal.scss';
 

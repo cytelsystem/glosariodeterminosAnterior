@@ -18,6 +18,14 @@ React Router (v4): Nos da las herramientas para poder hacer SPA fácilmente. Usa
 
   <Link to="badges/new" className="btn btn-primary">New Badge</Link>
 
+//**********************************************Instalacion*********************************************//
+// **En la consola del proyecto Ejecutar el siguiente comando para instalar react router para los navegadores******//
+// **En el archivo package.json dentro de "dependencies": colocar "react-router-dom": "4.3.1",
+
+npm install react-router-dom  //
+
+// **En el archivo package.json dentro de "dependencies": quitar la ^ y debe quedar así "react-router-dom": "4.3.1",
+
 //**********************************************index.js*********************************************//
  ****Las paginas ya no se llaman desde el index.js sino desde el components App.
 
