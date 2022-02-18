@@ -53,7 +53,7 @@ function Layout (props) {
   return (
     <React.Fragment>  // En vez de un div se coloca la etiqueta React.Fragment
       <Navbar/>  // Se coloca aqui el Navbar para que se repita en todas las paginas
-      {props.children} // Muestra la informacion de App.js que esta embuelta en el en la etiqueta layout
+      {props.children} // Muestra la informacion de App.js que esta envuelta en el en la etiqueta layout
     </React.Fragment>
   )
 }
