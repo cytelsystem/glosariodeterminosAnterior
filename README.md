@@ -1,4 +1,4 @@
-https://cytelsystem.github.io/glosariodeterminos/
+https://cytelsystem.github.io/glosariodeterminosAnterior/
 
 # Glosario de terminos en Html, Css, JavaScript y Node,
 
@@ -10,4 +10,4 @@ https://cytelsystem.github.io/glosariodeterminos/
 
 #### Aportes
 
-##### Pepito perez
+##### Pepito perez moreno
